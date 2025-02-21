@@ -43,19 +43,35 @@ header ul li a {
 }
 
 .mission {
-    height: 700px;
-    width: 1200px;
-    background-image: url("img-mission-background.jpg");
-    margin-top: 69px;
-    justify-content: center;
-    margin-left: 50px;
-    align-content: center;
+        height: 700px;
+        width: 1200px;
+        background-image: url("img-mission-background.jpg");
+        display: inline-flex;
+        justify-content: center;
+        align-content: center;
 }
 
 .missiontext {
     background-color: black;
+    height: 90px;
+    width: 100%;
+    justify-content: center;
+    margin: auto;
+}
+
+.missiontext h2 {
+    background-color: black;
     width: 100%;
     align-content: center;
+    justify-content: center;
+}
+
+.missiontext h4 {
+    background-color: black;
+    width: 100%;
+    align-content: center;
+    margin: auto;
+    padding-bottom: 15px;
 }
 
 .totmpictures {
@@ -123,7 +139,7 @@ header ul li a {
     background-image: url("img-locations-background.jpg");
     display: inline-flex;
     justify-content: center;
-    margin-left: 50px;
+
     align-content: center;
     flex-wrap: wrap;
 }
@@ -157,7 +173,8 @@ header ul li a {
 
 footer {
     display: flex;
-    justify-content: flex-start;
-    padding-right: 20px;
 }
 
+footer h5 {
+    margin: 20px;
+}
